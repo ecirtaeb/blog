@@ -1,0 +1,244 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size : 62.5%;
+}
+
+.clearfix::after {
+	content : '';
+	display : block;
+	clear : both;
+}
+
+.colOrange {
+	
+	color : rgba(240,129,60,1);
+}
+
+.red {
+	
+	color : red;
+	font-size : 1rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+i {
+	padding : 0 1rem;
+}
+a {
+	color : rgba(240,129,60,1);
+	text-decoration : none;
+}
+
+
+a i.fa-comment-smile, a i.fas fa-cogs {
+
+	color : rgba(240,129,60,1);
+}
+
+.flex {
+	display : flex;
+	flex-direction : row;
+	flex-wrap : wrap;
+	justify-content : center;
+}
+
+body {
+
+	margin: 0;
+	background-color : rgba(182,223,233,0.5);
+	font-family: 'Indie Flower', cursive;
+	color : rgba(59,80,110,1);
+}
+
+main {
+	
+	padding : 5rem;
+}
+
+header {
+	background-color : rgba(59,80,110,1);
+	padding-bottom : 2rem;
+}
+
+
+form.flex {
+	display : flex;
+	flex-wrap : nowrap;
+	flex-direction : rows;
+	justify-content : space-between;
+}
+
+ fieldset label {
+	margin-bottom: 15px;
+	width : 25%;
+	text-align : left;
+	padding-left : 20px;
+}
+
+form input, form select, form textarea {
+	margin-bottom: 15px;
+	width : 65%;
+}
+
+h1, h2, h3, legend {
+	color : rgba(240,129,60,1);
+}
+
+h1 {
+		
+	font-size : 4rem;
+	text-align : center;
+}
+
+h2 {
+	
+	font-size : 3rem;
+}
+
+h3{
+	
+	font-size : 2rem;
+}
+
+legend {
+	
+	font-size : 2rem;
+}
+
+form fieldset label {
+	
+	font-size : 1.5rem;
+}
+
+/*********
+*  Header  * 
+**********
+*/
+
+header {
+	
+	padding : 2rem 1rem;
+}
+
+header a:hover {
+	color : rgba(182,223,233,1);
+}
+
+header>a {
+
+	padding-right : 2rem;
+	font-size : 2rem;
+	float : right;
+}
+
+/***********
+*    HOME    *!
+***********/
+
+section {
+	width : 90%;
+	margin : 0 auto;
+}
+
+article#home p {
+	
+	width : 50%;
+	font-size : 1.5rem;
+}
+
+
+/***********
+* ARTICLE *!
+***********/
+
+
+article#article {
+	
+	width : 50%;
+	font-size : 1.5rem;
+}
+
+article#comment {
+
+	border-top : 2px solid rgba(182,223,233,1);
+	padding : 1rem;
+	font-size : 1.5rem;
+}
+
+/**************
+* FORMULAIRE  *!
+**************/
+
+form {
+	width : 50%;
+	margin : 0 auto;
+	font-family: 'Indie Flower', cursive;
+}
+
+form fieldset {
+	
+	border-color : rgba(240,129,60,1);
+	padding : 2rem;
+	
+}
+
+form input {
+	width : 80%;
+}
+
+
+
+
+div#buttonForm button {
+	
+	margin-top : 2rem;
+}
+
+/***********
+*    ADMIN  *!
+***********/
+
+thead {
+	
+	background-color : rgba(59,80,110,0.9);
+	color : rgba(240,129,60,1);
+}
+
+tbody tr:nth-child(odd) {
+	background-color : rgba(240,129,60,0.3);
+}
+
+td, th {
+	padding : 1rem;
+}
+
+td:hover a, h3 a:hover{
+	
+	color : rgba(59,80,110,0.9);;
+}
+
+
+
+/***********
+*   FOOTER  *!
+***********/
+
+footer {
+	padding : 2rem;
+	font-size : 2rem;
+	background-color : rgba(59,80,110,0.9);
+	color : rgba(240,129,60,1);
+	text-align : center;
+	border-top : 4px solide rgba(240,129,60,1);
+}
+
+
+
+
+

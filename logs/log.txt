@@ -1,0 +1,226 @@
+
+2018-06-11 19:38:56 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, Dolor sit amet, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 19:38:56 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, Dolor sit amet, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 19:38:56 HY093
+2018-06-11 19:39:27 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, Dolor sit amet, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 19:39:27 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, Dolor sit amet, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 19:39:27 HY093
+2018-06-11 19:50:27 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 19:50:27 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 19:50:27 00000
+2018-06-11 20:39:25 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 20:39:25 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 20:39:25 23000
+2018-06-11 21:20:11 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 21:20:11 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 21:20:11 23000
+2018-06-11 21:20:11 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 21:20:11 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 21:20:11 23000
+2018-06-11 21:21:24 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 21:21:24 
+	INSERT INTO article 
+	(id, title, content, authorid, idcateg, credat, upddat)
+	VALUES (null, :title, :content, :authorid, :idcateg, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 21:21:24 23000
+2018-06-11 22:24:23 
+	INSERT INTO commentaire 
+	(id, idarticle, content, pseudo, credat, upddat)
+	VALUES (null, :idarticle, :content, :pseudo , :idarticle, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 22:24:23 HY093
+2018-06-11 22:24:52 
+	INSERT INTO commentaire 
+	(id, idarticle, content, pseudo, credat, upddat)
+	VALUES (null, :idarticle, :content, :pseudo , :idarticle, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 22:24:52 HY093
+2018-06-11 22:25:33 
+	INSERT INTO commentaire 
+	(id, idarticle, content, pseudo, credat, upddat)
+	VALUES (null, :idarticle, :content, :pseudo , :idarticle, CURRENT_TIMESTAMP, null)
+	
+2018-06-11 22:25:33 HY093
+2018-06-11 22:27:50 
+	INSERT INTO commentaire 
+	(id, idarticle, content, pseudo, credat, upddat)
+	VALUES (null, :idarticle, :content, :pseudo , CURRENT_TIMESTAMP, null)
+	
+2018-06-11 22:27:50 HY093
+2018-06-11 22:32:14 
+	INSERT INTO commentaire 
+	(id, idarticle, content, pseudo, credat, upddat)
+	VALUES (null, :idarticle, :content, :pseudo , CURRENT_TIMESTAMP, null)
+	
+2018-06-11 22:32:14 HY093
+2018-06-11 22:33:13 
+	INSERT INTO commentaire 
+	(id, idarticle, content, pseudo, credat, upddat)
+	VALUES (null, :idarticle, :content, :pseudo , CURRENT_TIMESTAMP, null)
+	
+2018-06-11 22:33:13 HY093
+2018-06-11 22:46:08 Array
+(
+    [pseudo] => rocococo
+    [content] => premier commentaire SVP
+    [idarticle] => 13
+)
+
+2018-06-11 22:46:08 HY093
+2018-06-11 22:49:48 Array
+(
+    [idarticle] => 13
+    [pseudo] => rocococo
+    [content] => premier commentaire SVP
+)
+
+2018-06-11 22:49:48 HY093
+2018-06-11 22:50:19 Array
+(
+    [idarticle] => 13
+    [pseudo] => rocococo
+    [content] => Ze first
+)
+
+2018-06-11 22:50:19 HY093
+2018-06-11 22:51:32 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 22:51:32 HY093
+2018-06-11 22:52:20 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 22:52:20 HY093
+2018-06-11 22:52:28 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 22:52:28 HY093
+2018-06-11 22:54:56 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 22:54:56 HY093
+2018-06-11 22:58:05 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 22:58:05 HY093
+2018-06-11 23:15:12 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 23:15:12 HY093
+2018-06-11 23:15:33 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 23:15:33 HY093
+2018-06-11 23:15:38 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 23:15:38 HY093
+2018-06-11 23:25:35 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 23:25:35 HY093
+2018-06-11 23:27:08 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 23:27:08 HY093
+2018-06-11 23:27:17 Array
+(
+    [idarticle] => 13
+    [pseudo] => 
+    [content] => 
+)
+
+2018-06-11 23:27:17 HY093
